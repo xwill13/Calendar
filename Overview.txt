@@ -1,0 +1,11 @@
+The goal of this project is to create a calendar application that manages appointments, social events, and personal goals. It should be accessible from both a home computer and a phone.
+
+Neccessary Functions
+
+1. Generate a calendar
+2. Create Events from user input
+3. Display Calendar With events
+4. Notify User of Upcoming events
+5. Create Goals from user input
+6. Create Goal breakdowns
+7. Place goal breakdowns on a timeline 
