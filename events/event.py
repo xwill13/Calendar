@@ -5,7 +5,7 @@ from task import Task
 
 class Event():
   
-  def __init__(self, date, name, start, end, desc):
+  def __init__(self, date, name, desc='', start=0, end=0):
     self.date = date
     self.name = name
     self.desc = desc
