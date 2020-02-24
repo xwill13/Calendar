@@ -3,8 +3,7 @@
 # date should be datime object
 from task import Task
 
-class Event():
-  
+class Event:
   def __init__(self, date, name, desc='', start=0, end=0):
     self.date = date
     self.name = name

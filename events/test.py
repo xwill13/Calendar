@@ -1,6 +1,6 @@
-import events
+from event import Event
 import datetime
-import  util
+from yamldriver import  *
 
 
 day = str(datetime.date.today())
@@ -10,6 +10,6 @@ event = Event(day,'Testvent',desc)
 #event.report()
 event.addTask('Task', 'This is a test task')
 #event.tasks[0].report()
-write_yaml('./',event)
+write_yaml('./test2.yml',event)
 #print(event.calcPercent())
 

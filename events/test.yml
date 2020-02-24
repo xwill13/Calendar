@@ -1,0 +1,11 @@
+!!python/object:event.Event
+date: '2020-02-24'
+desc: This is a test event
+endTime: 0
+name: Testvent
+startTime: 0
+tasks:
+- !!python/object:task.Task
+  completed: false
+  desc: This is a test task
+  name: Task
